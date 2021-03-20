@@ -1,4 +1,4 @@
 ## Calculadora - IMC
 
 
-https://thales-eduardo.github.io/calculadora-imc/
+> https://thales-eduardo.github.io/calculadora-IMC/
