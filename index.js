@@ -12,7 +12,7 @@ function regras() {
     let peso = Number(num2.value)
     let resultado = peso / (altura * altura)
     if (altura === 0 || peso === 0) {
-        alert('imposivel calcular! por favor preencha todos os campos')
+        alert('impossível calcular! por favor preencha todos os campos')
     } else if (resultado < 18.5) {
         div.innerHTML = `<p> ${nome.value} seu IMC é ${resultado.toFixed(1).replace('.', ',')} e você está abaixo do peso</p>`
     } else if (resultado > 18.5 && resultado < 25) {
